@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#principal{
+    margin: 1px auto;
+    font-family: arial;
+    width: 95%;
+    border: 1px solid;
+}
+.cabeza{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    line-height: 100px;
+    color: wheat;
+}
+
+nav{background-color: coral;}
+
+.main-nav{
+    margin: 0px;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.main-nav_item{display: inline-block; padding: 10px}
+
+.main-nav_item a {
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav_item a:hover{color: blue;}
+
+.main-nav_item a:active{color: red;}
+
+.main-nav_item a::before{
+    content: "|";
+}
+
+.clearFixStyle{clear: both;}
+
+.contenido{
+    float: left;
+    width: calc(80% - 40px);
+    min-height: 380px;
+    padding: 20px;
+}
+.lateral{
+    float: left;
+    width: calc(20% - 21px);
+    min-height: 400px;
+    padding: 10px;
+    border-left: 1px solid;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.article{
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.article:first-child{padding-top: 10px; border-top: 1px solid;}
+
+.article h2{text-align: center;}
