@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -18,7 +19,7 @@
     color: wheat;
 }
 
-nav{background-color: coral;}
+nav{background-color: rgb(255, 153, 0);}
 
 .main-nav{
     margin: 0px;
