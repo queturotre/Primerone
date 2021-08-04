@@ -59,6 +59,9 @@ nav{background-color: rgb(255, 153, 0);}
     padding: 10px;
     border-left: 1px solid;
 }
+    .lateral input{
+        width: 10em;
+    }
 footer{
     background-color: black;
     color: blanchedalmond;
