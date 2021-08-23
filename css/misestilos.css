@@ -65,6 +65,10 @@ nav ul{
     -webkit-animation: tierra-girando 5s infinite linear;
 }
 
+.pie{
+    background-color: white;
+}
+
 @-webkit-keyframes tierra-girando{
     from{
         background-position: right center;
