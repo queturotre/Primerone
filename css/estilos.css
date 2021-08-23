@@ -60,7 +60,7 @@ nav{background-color: rgb(255, 153, 0);}
     border-left: 1px solid;
 }
     .lateral input{
-        width: 10em;
+        width: 100%;
     }
 footer{
     background-color: black;
